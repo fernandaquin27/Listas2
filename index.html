@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/listas.css">
+    <title>Listas2</title>
+</head>
+<body style="margin: 0 auto; width: 90%;"> 
+    <h1><b>Listas... ordenadas, con viñetas anidadas</b></h1>
+    <p>Aprendamos a hacer <a target="_blank" href="https://www.manualweb.net/html/listas-html/">listas</a> para incluir los <em> emojis y simbolos </em>, podeis buscarlos en <a target="_blank" href="https://www.w3schools.com/charsets/">w3scools</a>. </p>
+    <p>Esta pagina contiene algunos sitios css que ya veremos en su oportunidad.</p>
+    <h2><b>Listas ordenadas &lt;ol&gt; </b></h2>
+    <h3>&#127760; Las paginas web mas utilizadas</h3>
+    <ol class="uno"> 
+        <li>Google</li>
+        <li>Youtube</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Baidu</li>
+        <li>AliExpress</li>
+        <li>Wikipedia</li>
+        <li>Yahoo</li>
+        <li>XVideos</li>
+    </ol>
+    <h3>&#127909;Series mejor valoradas de todos los tiempos en orden inverso segun sensacine.com</h3>
+    <ol reversed class="dos">
+        <li>Dragon Ball Z</li>
+        <li>love is in the air</li>
+        <li>Hermanos de sangre</li>
+        <li>Los Simpson</li>
+        <li>Vikingos</li>
+        <li>Chernobyl</li>
+        <li>Peaky Blinders</li>
+        <li>Los Soprano</li>
+        <li>Juegode Tronos</li>
+        <li>Breking Bad</li>
+    </ol>
+    <h3>Los doce signos del zodiaco</h3>
+    <ol type="I" class="Tres">
+        <li>&#9800;Aries</li>
+        <li>&#9801;Tauro</li>
+        <li>&#9802;Geminis</li>
+        <li>&#9803;Cancer</li>
+        <li>&#9804;Leo</li>
+        <li>&#9805;Virgo</li>
+        <li>&#9806;Libra</li>
+        <li>&#9807;Scorpio</li>
+        <li>&#9808;Sagitario</li>
+        <li>&#9809;Capricornio</li>
+        <li>&#9810;Acuario</li>
+        <li>&#9811;Piscis</li>
+    </ol>
+    <p>Otros tipos de listas <strong>Ordenadas</strong> Se pueden lograr con los soguientes atributos: <code>type="A"</code> para crear listas ordenadas con letras mayusculas, <code>type="a"</code> con letras minusculas, y <code>type="i"</code> con numeros romanos en minusculas. Ejemplo: </p>
+    <p>Las mascotas mas comunes son:</p>
+    <ol type="a" class="cuatro">
+        <li>&#128054; Perros</li>
+        <li> &#128008; Gatos</li>
+        <li>&#128057; Hamsters y <em>otros rodeores como cobayas y conejos &#128007;</em></li>
+    </ol>
+    <h2>Listas desordenadas &lt;ul&gt;</h2>
+    <p>Las listas <b>desordenadas</b> o listas con viñetas, son llamadas de esa forma,porque no se enumeran. Al crearlas, se añade a la izquierda, un circulo negro type="disc", a menos que se cambie el atributo a tipo a: type="circle":circulo &#128280;, type="square": cuadrado &#128307; o type="none"para eliminar los simbolos. El resto de estilos se definen en CSS. Ejemplo:</p>
+    <h3>Tres cosas hay en la vida...</h3>
+    <ul>
+        <li>&#127947;Salud</li>
+        <li> &#128184; Dinero</li>
+        <li> &#x1F496; Amor</li>
+    </ul>
+    <hr>
+    <h2><b>Listas anidadas</b></h2>
+    <p>Se pueden incluir dentro de otras listas. De esta manera se crean listas anidadas.</p>
+    <details>
+        <summary style="background-color:#6495ED"><b style="color: white;"><i>Clic</i> para ver el codigo de como hacer una lista anidada</b></summary>
+        <img src="./img/lista.png" alt="foto">
+    </details>
+    <h3> Comunidades autonomas y sus provincias...</h3>
+    <ul type="circle"> 
+        <li>
+            <p><strong>Cataluña</strong></p>
+            <ol class="cinco">
+                <li>Barcelona</li>
+                <li>Tarragona</li>
+                <li>Girona</li>
+                <li>Lleida</li>
+            </ol>
+        </li>    
+        <li>
+            <p><strong>Aragon</strong></p>
+            <ol class="seis">
+                <li>Zaragoza</li>
+                <li>Huesca</li>
+                <li>Teruel</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <p>para hacer el desplegable anterior se utiliza la combinacion details-summary de la siguiente manera:</p>
+    <p>&lt;details&gt;<br>
+    &lt;summary&gt;Titulo despegable&lt;summary&gt;<br>
+    contenido desplegable<br>
+    &lt;details&gt;</p>
+    <p>Los colores y los bordes estan puestos con css</p>
+</body>
+</html

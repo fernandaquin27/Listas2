@@ -1,0 +1,50 @@
+body     
+    .uno{
+    background-color:#fffff0; 
+    color: violet;
+    font-family:'times new roman', times,serif;
+    font-weight: 600;
+    }
+    
+    .dos{
+    color: fuchsia;
+    font-family:'cambria, cochin, Georgia, Times new Roman, serif';
+    font-weight: 600;
+    }
+
+    .tres{
+    color: black;
+    font-family: 'Open Sans', 'segoe UI', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 600;
+    }
+    .cuatro{
+    color: aqua;
+    font-family: 'trebuchet ms', 'Lucida Sans Unicode', 'Lucida Grande','lucida grande' 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    }
+    .cinco{
+    color: darkcyan;
+    font-family: 'fantasy';
+    font-weight: 600;
+    }
+    .seis{
+    color: aquamarine;
+    font-family: 'gill sans', 'Gill Sans MT', 'calibri','trebuchet MS', sans-serif;
+    font-weight: 600;
+    }
+    h1{
+        background-color: steelblue;
+        color: white;
+        text-align: center;
+    }
+    h2{
+        background-color: rgb(214, 11, 11);
+        text-align: center;
+        color: white;	
+    }
+    h3{
+        text-decoration: underline;	
+        color: blue;
+    }	
+    
+    
